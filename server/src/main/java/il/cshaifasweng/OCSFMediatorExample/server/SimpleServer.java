@@ -135,6 +135,7 @@ public class SimpleServer extends AbstractServer {
 				}
 				if(checkWin((turn+1)%2)){
 					sendToAllClients("Win");
+					
 				}
 				else if(checkTie()){
 					sendToAllClients("Tie");
